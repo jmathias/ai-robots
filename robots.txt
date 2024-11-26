@@ -2,16 +2,13 @@
 
 # tell all(*) robots to stay out of
 # asset folders.
+# this is optional, but it's good practice to keep all bots outta your files. Just update the path to match your server setup.
 User-agent: *
 Disallow: /assets/
 
 # tell the way back machine
 # to go way back where it came from.
 User-agent: ia_archiver
-Disallow: /
-
-# say no to the twitter
-User-agent: Twitterbot
 Disallow: /
 
 # no thank you to AI bots
